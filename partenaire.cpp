@@ -70,7 +70,7 @@ QSqlQueryModel *partenaire::afficher()
 {
     QSqlQueryModel *model = new QSqlQueryModel();
 
-    // Set the query to select data from the 'personnel' table
+    // Set the query to select data from the 'partenaire' table
 
     model->setQuery("select *from partenaire") ;
 
